@@ -1,0 +1,66 @@
+Linux which is known as copy of unix is written by linus torvold 
+Popular flavors of linux 
+RHEL (red Hat Enterprise Linux )
+Fedora (group of organization )
+Debian
+Ubuntu (free) #rd most used 
+CentOS (comunity enterprise OS )
+Amazon Linux 
+
+How linux is secure more than Window?
+in linux if a file got infected by virus it will stay entact in 
+that folder and file and do not take over complete ENV 
+thats why no antivirus is required in linux 
+Linux cmd line based and hard for hackers to crack 
+
+and Updates are easy in linux 
+
+FILE SYSTEM HIRARCY
+
+1. / (Root): 
+
+Primary hierarchy root and root directory of the entire file system hierarchy. 
+
+Every single file and directory start from the root directory.
+
+2. /bin : 
+Essential command binaries that need to be available in single-user mode; for all users, e.g., cat, ls, cp. 
+
+Contains binary executables.
+Common linux commands you need to use in single-user modes are located under this directory.
+
+
+3. /boot :
+ Boot loader files, e.g., kernels, initrd. 
+ 
+
+Kernel initrd, vmlinux, grub files are located under /boot
+
+4. /etc :
+ Host-specific system-wide configuration files.
+
+Contains configuration files required by all programs.
+This also contains startup and shutdown shell scripts used to start/stop individual programs.
+
+5. /home :
+ Users’ home directories, containing saved files, personal settings, etc.
+
+Home directories for all users to store their personal files.
+
+6. /lib:
+ Libraries essential for the binaries in /bin/ and /sbin/.
+
+Library filenames are either ld* or lib*.so.*
+
+7. /opt : 
+Optional application software packages.
+
+8. /tmp : 
+Temporary files. Often not preserved between system reboots and may be severely size restricted.
+
+9. /root
+Home dir for root user 
+
+10. /sbin 
+Contains command used by only root user
+
